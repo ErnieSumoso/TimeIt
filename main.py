@@ -21,7 +21,6 @@ def collect_data_by_count():
         time_sum += hours + minutes / 60
         current_time = datetime.time(int(time_sum), int((time_sum - int(time_sum)) * 60))
         print(f'It is {current_time} now.')
-        # checking commits on github dev branch
 
 
 def collect_data_by_time():
@@ -63,5 +62,3 @@ if __name__ == '__main__':
         collect_data_by_time()
     else:
         collect_data_by_count()
-
-
