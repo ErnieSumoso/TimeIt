@@ -1,6 +1,6 @@
 import datetime
 
-
+# Set the type of data collection regarding the user's time management
 def set_data_collection_type():
     collect_type = input('Choose your data collection type (T = time of the day, C = counting hours & minutes)\n')
     while collect_type not in ['t', 'T', 'c', 'C']:
